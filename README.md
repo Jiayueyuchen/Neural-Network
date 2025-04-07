@@ -11,8 +11,8 @@ cifar10-classifier/
 ├── train.py               # 训练
 ├── test.py                # 测试
 ├── hparam_search.py       # 超参数搜索
-├── search_models          # 参数搜索输出目录
-├── trained_models         # 模型训练保存目录（需要自己新建这个文件夹）
+├── search_models/          # 参数搜索输出目录
+├── trained_models/         # 模型训练保存目录（需要自己新建这个文件夹）
 │
 └── cifar-10-batches-py/   # 必须的数据集目录（需自行下载）
     ├── data_batch_1       # 训练批次1
